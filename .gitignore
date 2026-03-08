@@ -1,4 +1,4 @@
-data
-logs
-models 
-reports
+/data
+/logs
+/models 
+/reports
