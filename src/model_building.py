@@ -123,7 +123,7 @@ def main():
         train_data = load_data('./data/processed/train_tfidf.csv')
         X_train = train_data.iloc[:, :-1].values
         y_train = train_data.iloc[:, -1].values
-        params={'n_estimators':25, 'random_state':2}
+        params={'n_estimators':30, 'random_state':2}
         clf = train_model(X_train, y_train, params)
         
         model_save_path = 'models/model.pkl'
